@@ -11,7 +11,22 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
-
+    
+    var activePlayer = 1
+    
+    @IBAction func action(_ sender: UIButton) {
+    
+        if (activePlayer == 1) {
+            sender.setImage(UIImage(named: "letterX.jpg"), for: UIControlState())
+            activePlayer = 0
+        }
+        else
+        {
+            sender.setImage(UIImage(named: "letterO.jpg"), for: UIControlState())
+            activePlayer = 1
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

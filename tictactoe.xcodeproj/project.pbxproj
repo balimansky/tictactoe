@@ -17,6 +17,9 @@
 		B5103AF31FF86ADA00DEBE1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5103AF11FF86ADA00DEBE1F /* LaunchScreen.storyboard */; };
 		B5103AFE1FF86ADA00DEBE1F /* tictactoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5103AFD1FF86ADA00DEBE1F /* tictactoeTests.swift */; };
 		B5103B091FF86ADA00DEBE1F /* tictactoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5103B081FF86ADA00DEBE1F /* tictactoeUITests.swift */; };
+		B59CC41A1FF86F55001B1D45 /* board.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B59CC4171FF86F55001B1D45 /* board.jpg */; };
+		B59CC41B1FF86F55001B1D45 /* letterX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B59CC4181FF86F55001B1D45 /* letterX.jpg */; };
+		B59CC41C1FF86F55001B1D45 /* letterO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B59CC4191FF86F55001B1D45 /* letterO.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B5103B041FF86ADA00DEBE1F /* tictactoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tictactoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5103B081FF86ADA00DEBE1F /* tictactoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tictactoeUITests.swift; sourceTree = "<group>"; };
 		B5103B0A1FF86ADA00DEBE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59CC4171FF86F55001B1D45 /* board.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = board.jpg; path = ../../board.jpg; sourceTree = "<group>"; };
+		B59CC4181FF86F55001B1D45 /* letterX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = letterX.jpg; path = ../../letterX.jpg; sourceTree = "<group>"; };
+		B59CC4191FF86F55001B1D45 /* letterO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = letterO.jpg; path = ../../letterO.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 				B5103AEF1FF86ADA00DEBE1F /* Assets.xcassets */,
 				B5103AF11FF86ADA00DEBE1F /* LaunchScreen.storyboard */,
 				B5103AF41FF86ADA00DEBE1F /* Info.plist */,
+				B59CC4171FF86F55001B1D45 /* board.jpg */,
+				B59CC4191FF86F55001B1D45 /* letterO.jpg */,
+				B59CC4181FF86F55001B1D45 /* letterX.jpg */,
 			);
 			path = tictactoe;
 			sourceTree = "<group>";
@@ -242,10 +251,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5103AEE1FF86ADA00DEBE1F /* Main.storyboard in Resources */,
+				B59CC41C1FF86F55001B1D45 /* letterO.jpg in Resources */,
 				B5103AE51FF86ADA00DEBE1F /* GameScene.sks in Resources */,
+				B59CC41A1FF86F55001B1D45 /* board.jpg in Resources */,
 				B5103AF01FF86ADA00DEBE1F /* Assets.xcassets in Resources */,
 				B5103AF31FF86ADA00DEBE1F /* LaunchScreen.storyboard in Resources */,
 				B5103AE71FF86ADA00DEBE1F /* Actions.sks in Resources */,
+				B59CC41B1FF86F55001B1D45 /* letterX.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
